@@ -9,11 +9,12 @@
         app:showAsAction="always|collapseActionView" />
 
     <item
+        android:id="@+id/action_sort"
         android:icon="@drawable/ic_sort"
         android:title="Sort"
         app:showAsAction="always">
 
-        <Menu>
+        <menu>
             <item
                 android:id="@+id/action_sort_by_name"
                 android:title="Sort by name" />
@@ -22,7 +23,7 @@
                 android:id="@+id/action_sort_by_date_created"
                 android:title="Sort by date created" />
 
-        </Menu>
+        </menu>
 
     </item>
 
